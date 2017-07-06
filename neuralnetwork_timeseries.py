@@ -1,4 +1,9 @@
-# this 
+# Pradeep Saini
+
+# CSV Data file can not pushed on github due to file size constraint of 100mb
+# so here is the link for real time series future data
+# https://www.dropbox.com/s/hcrxfu9ztfpbsrw/irage_dataset.csv?dl=0
+# Download it and place in working directory
 
 import math
 import time
@@ -8,6 +13,7 @@ import tensorflow as tf
 from sklearn import preprocessing, cross_validation, svm
 from sklearn.metrics import confusion_matrix, accuracy_score
 import pandas as pd
+
 x = tf.placeholder('float', [None, 142])
 y = tf.placeholder('float')
 
